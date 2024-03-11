@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;800&family=Rowdies:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: auto;
+    height: 692px;
+
+    background: linear-gradient(
+        to top,
+        #264653 43%,
+        #287271 76%,
+        #2a9d8f 100%
+        );
+        
+    }
+    
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 3rem;
+    margin-left: 29rem;
+    
+    width: 400px;
+    height: 600px;
+    
+    background: #294c5a;
+    
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+header{
+    padding: 1rem;
+    padding-bottom: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    color: #2a9d8f;
+}
+
+h1{
+    font-family: 'Rowdies', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+
+    color: #2fb8a8;
+
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.267);
+}
+
+h2{
+    font-family: 'Exo 2';
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-img{
+    width: 30px;
+}
+
+.input-login{
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid #2a9d8f;
+    border-radius: 5px;
+
+    padding: 15px 10px;
+
+    width: 18rem;
+    height: 3rem;
+    
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background: #2a9d8f;
+}
+
+.input-login:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.password-img{
+    width: 24px;
+    margin-bottom: 1px;
+}
+
+.input-password{
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid #2a9d8f;
+    border-radius: 5px;
+
+    padding: 15px 10px;
+
+    width: 18rem;
+    height: 3rem;
+    
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background: #2a9d8f;
+}
+
+.input-password:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+::placeholder{
+    padding: 2px;
+    opacity: 40%;
+    font-size: 1rem;
+    font-style: bold;
+    color: #1c343d;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: 'Exo 2';
+    font-size: 1.1rem;
+
+}
+
+.checkbox-text{
+    color: antiquewhite;
+
+    cursor: pointer;
+
+    margin-left: 1.2rem;
+}
+
+.checkbox-text:hover{
+    box-shadow: rgb(26, 39, 53) 0px 20px 30px -10px;
+
+    color: #31b6a6;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 2.2rem;
+}
+
+.input-submit{
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Exo 2';
+    font-size: 1.4rem;
+
+    width: 14rem;
+    height: 3.3rem;
+    
+    margin-top: 1.2rem;
+
+    border: 2px #264653;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    color: black;
+    box-shadow: rgba(52, 52, 54, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: #2a9d8f;
+}
+
+.input-submit:hover{
+    border-radius: 8px;
+
+    color: antiquewhite;
+
+    box-shadow: rgb(44, 45, 46) 0px 20px 30px -10px;
+}
+
+a{
+    font-size: 1.1rem;
+    font-family: 'Exo 2';
+
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+
+a:hover{
+    color: #31b6a6;
+}
